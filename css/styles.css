@@ -1,0 +1,213 @@
+html{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700); */
+body{
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+
+    font-weight: 400;
+    color: #212529;
+
+
+    padding: 0;
+    margin: 0;
+    /*background-image: url(../img/cool-background-light.png);
+    background-size: 85%;*/
+    
+}
+
+.container{
+    width: 85%; /* (85% of the page) */
+    margin: auto; 
+    overflow: hidden;
+    text-align: justify;
+}
+
+
+
+/* **** HEADER **** */
+
+
+/* 4th value is the blur size, the 3rd value is the size of the spread.
+The 1st and 2nd values adjust the X and Y offsets of the dropshadow. 
+-> -webkit is Safari and Chrome. -moz is Mozilla. */
+header{
+    background: lightgrey;
+    padding: 20px 10px 0px 0px;
+    min-height: 60px;
+    -webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25); /* CHANGE FOR EVEY BROWSER */
+    -moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    box-shadow: 0px 0px 9px 3px rgba(243, 241, 241, 0.842);
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header a{
+    color: rgb(49, 46, 46);
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+header #name{
+    float: left;
+    margin-left: 55px;
+
+}
+
+header #name p{
+    margin: 0;
+    font-size: 25px;
+}
+
+
+header nav{
+    float: right;
+    margin-top: 5px;
+}
+
+header nav a{
+    color: rgb(64, 64, 95);
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+
+header nav a:hover{
+    color: rgb(220, 236, 224);
+}
+
+header #name a:hover{
+    /* color: lightgreen; */
+}
+
+
+/* *** PICTURE PROFILE + logos *** */
+
+#info-img{
+    float: left;
+    margin-top: 80px;
+    width: 50%;
+}
+
+#biography-interests{
+    float: right;
+    margin-top: 30px;
+    width: 50%;
+    font-size: 18px;
+    
+}
+
+#info-img .container{
+    text-align: center;
+}
+
+#info-img .img-links img{
+
+    border-width: 2px;
+    border-radius:50%;
+    border-color: #292cdf;
+    border-style: dotted double;
+}
+
+#info-img .img-links a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(34, 81, 168);
+}
+
+#info-img .img-links p{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#info #logos{
+    float: center;
+}
+
+
+/* effect-shine on my name
+more effects: https://codepen.io/colloque/pen/bDgmx */
+#info-img .img-links p:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(199, 23, 23, 0.6) 30%, rgb(163, 10, 10) 50%, rgba(224, 18, 18, 0.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+
+
+/* separate */
+
+#biography-interests .container{
+    margin-left: -40px;
+}
+
+
+#biography-interests ul #interests{
+    list-style-type: circle;
+}
+
+
+/* LOGOS */
+#info-img #logos{
+    overflow: hidden;
+    padding-top: 20px;
+    padding-inline: 10px;
+    background-clip: padding-box ;
+}
+
+
+/* Grow; more effects on: https://ianlunn.github.io/Hover/ */
+#logos .hvr-grow {
+    width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+#logos .hvr-grow:hover,
+#logos .hvr-grow:focus,
+#logos .hvr-grow:active {
+    transform: scale(1.15);
+}
+
+
+/* *** BIOGRAPHY & INTERESTS *** */
+
+
