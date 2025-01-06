@@ -9,9 +9,9 @@ en:
   contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
-es:
-  languageCode: es-es
-  contentDir: content/es
+#es:
+#  languageCode: es-es
+#  contentDir: content/es
   #title: Spanish website title...
   #params:
   #  description: Site description in Spanish...

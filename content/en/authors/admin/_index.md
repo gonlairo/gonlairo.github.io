@@ -177,3 +177,9 @@ awards:
 
 
 !!! I'm a PhD student at Helmholtz Munich, working on the development of computational models of the brain. My research interests include the development of computational models of the brain, the development of computational models of the brain, and the development of computational models of the brain.
+
+{{< math >}}
+$$
+\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
+$$
+{{< /math >}}

@@ -6,7 +6,10 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: red # R: color when you click on something 
+  #font: minimal
+  font_size: xl
+  #font_weight: 400
 
 # SEO
 marketing:
@@ -55,6 +58,6 @@ locale:
 # Site features
 features:
   math:
-    enable: false
+    enable: true # R: allow math in latex format
   privacy_pack:
     enable: false
