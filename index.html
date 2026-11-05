@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rodrigo Gonzalez Laiz · World models for science</title>
+  <meta name="description" content="Rodrigo Gonzalez Laiz is a PhD student at Helmholtz Munich working on self-supervised learning of world models that capture the dynamics of complex systems, with a focus on neuroscience.">
+  <meta name="author" content="Rodrigo Gonzalez Laiz">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3f0e8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14120f" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rodrigo Gonzalez Laiz">
+  <meta property="og:description" content="PhD student at Helmholtz Munich. Learning world models that capture the dynamics of complex systems.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,460;0,9..144,560;1,9..144,400&family=Outfit:wght@340;480;560&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    document.documentElement.classList.add("js");
+    try {
+      var savedTheme = localStorage.getItem("theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      }
+    } catch (error) {}
+  </script>
+</head>
+<body>
+  <header class="nav-bar">
+    <nav class="nav" aria-label="Site">
+      <a class="nav-name" href="#home">Rodrigo Gonzalez Laiz</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#background">Background</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">PhD student</p>
+        <h1 aria-label="Rodrigo Gonzalez Laiz">
+          <span class="line">Rodrigo</span>
+          <span class="line">Gonzalez Laiz</span>
+        </h1>
+        <p class="tagline">I build <em>world models</em> that recover the hidden dynamics of complex systems, with a focus on neuroscience.</p>
+        <ul class="socials" aria-label="Links">
+          <li>
+            <a href="mailto:rodrigo.gonzalezlaiz@helmholtz-munich.de" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Email</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://scholar.google.com/citations?user=W4uotzoAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1.5 9.5 12 16l8.5-5.26V17h2V9.5L12 3Z" fill="currentColor"/><path d="M6 13.2v3.3c0 1.9 2.7 3.5 6 3.5s6-1.6 6-3.5v-3.3l-6 3.7-6-3.7Z" fill="currentColor"/></svg>
+              <span>Scholar</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/gonlairo" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+              <span>GitHub</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <figure class="stage">
+        <canvas id="flow" aria-label="Animated trajectories of the Aizawa attractor, a chaotic dynamical system.">
+          Animated trajectories of the Aizawa attractor.
+        </canvas>
+        <figcaption>
+          <span class="stage-name">Aizawa</span>
+          <span class="stage-hint">drag to rotate</span>
+        </figcaption>
+      </figure>
+    </section>
+
+
+    <section class="about reveal" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <div class="about-body">
+        <img class="portrait" src="pics/portrait-crop-v2.jpg" alt="Rodrigo Gonzalez Laiz">
+        <div class="about-copy">
+          <p class="lead">Hi! I'm a third-year PhD student at Helmholtz Munich, advised by <a href="https://stes.io/">Steffen Schneider</a>.</p>
+          <p>My research explores how we can <strong>learn world models that capture the underlying dynamics of complex systems</strong>, particularly in scientific domains such as <strong>neuroscience</strong>. I develop self-supervised learning methods that recover meaningful and identifiable representations & dynamics from high-dimensional, nonlinear observations.</p>
+          <p>Long term, I want to bridge representation learning, dynamical systems and scientific discovery, so we can go from complex observations to models that help us understand, predict and control real-world systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="research" id="research" aria-labelledby="research-heading">
+      <div class="section-head reveal">
+        <h2 id="research-heading">Research</h2>
+        <p class="section-note">* equal contribution</p>
+      </div>
+      <ol class="papers">
+        <li class="reveal">
+          <a class="paper" href="https://worldmodels.science/world2vec">
+            <span class="paper-figure">
+              <img src="pics/world2vec.png" alt="Figure from world2vec, showing multi-step dynamics in latent space." loading="lazy">
+            </span>
+            <span class="paper-copy">
+              <span class="paper-venue">arXiv</span>
+              <h3>world2vec: Mechanistic world models through latent dynamics learning</h3>
+              <span class="paper-authors">Tobias Schmidt*, <span class="me">Rodrigo Gonzalez Laiz</span>*, Krisztián Szuppinger, Steffen Schneider</span>
+            </span>
+          </a>
+        </li>
+        <li class="reveal">
+          <a class="paper" href="https://worldmodels.science/analysis">
+            <span class="paper-figure">
+              <img src="pics/faithful.png" alt="Figure from Understanding the Limits of Latent World Models." loading="lazy">
+            </span>
+            <span class="paper-copy">
+              <span class="paper-venue">arXiv</span>
+              <h3>Understanding the Limits of Latent World Models</h3>
+              <span class="paper-authors"><span class="me">Rodrigo Gonzalez Laiz</span>, Steffen Schneider</span>
+            </span>
+          </a>
+        </li>
+        <li class="reveal">
+          <a class="paper" href="https://dynamical-inference.ai/dcl/">
+            <span class="paper-figure">
+              <img src="pics/dcl.png" alt="Figure from Self-supervised contrastive learning performs non-linear system identification." loading="lazy">
+            </span>
+            <span class="paper-copy">
+              <span class="paper-venue is-accepted">ICLR 2025</span>
+              <h3>Self-supervised contrastive learning performs non-linear system identification</h3>
+              <span class="paper-authors"><span class="me">Rodrigo Gonzalez Laiz</span>*, Tobias Schmidt*, Steffen Schneider</span>
+            </span>
+          </a>
+        </li>
+        <li class="reveal">
+          <a class="paper" href="https://arxiv.org/abs/2502.12977">
+            <span class="paper-figure">
+              <img src="pics/attribution_map.png" alt="Figure from Time-series attribution maps with regularized contrastive learning." loading="lazy">
+            </span>
+            <span class="paper-copy">
+              <span class="paper-venue is-accepted">AISTATS 2025</span>
+              <h3>Time-series attribution maps with regularized contrastive learning</h3>
+              <span class="paper-authors">Steffen Schneider, <span class="me">Rodrigo Gonzalez Laiz</span>, Anastasiia Filippova, Markus Frey, Mackenzie Weygandt Mathis</span>
+            </span>
+          </a>
+        </li>
+      </ol>
+    </section>
+
+    <section class="background" id="background" aria-labelledby="background-heading">
+      <h2 class="reveal" id="background-heading">Background</h2>
+
+      <div class="cv-group reveal">
+        <h3 class="cv-label">Experience</h3>
+        <ol class="cv-list">
+          <li class="cv-item">
+            <span class="cv-when">2024 – now</span>
+            <div class="cv-body">
+              <h4>PhD student <span class="cv-where">Helmholtz Munich</span></h4>
+              <p>Identifiable representation learning, dynamical systems and world models, with applications to neuroscience.</p>
+            </div>
+          </li>
+          <li class="cv-item">
+            <span class="cv-when">2023</span>
+            <div class="cv-body">
+              <h4>Research Engineer <span class="cv-where">EPFL, Mackenzie W. Mathis Lab</span></h4>
+              <p>Contributed to <a href="https://cebra.ai" target="_blank" rel="noopener">CEBRA</a>, a software package for dimensionality reduction and representation learning of neuroscience data.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <div class="cv-group reveal">
+        <h3 class="cv-label">Education</h3>
+        <ol class="cv-list">
+          <li class="cv-item">
+            <span class="cv-when">2020 – 2022</span>
+            <div class="cv-body">
+              <h4>MSc Statistics <span class="cv-where">ETH Zurich</span></h4>
+            </div>
+          </li>
+          <li class="cv-item">
+            <span class="cv-when">2016 – 2020</span>
+            <div class="cv-body">
+              <h4>Economics, Statistics &amp; Computer Science <span class="cv-where">Universidad Carlos III de Madrid</span></h4>
+              <p>Including an exchange year at the University of California, Davis (2018 – 2019).</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <div class="cv-group reveal">
+        <h3 class="cv-label">Other</h3>
+        <ol class="cv-list">
+          <li class="cv-item">
+            <span class="cv-when">2026</span>
+            <div class="cv-body">
+              <h4>Machine Learning Summer School <span class="cv-where">MLSS, Tübingen</span></h4>
+            </div>
+          </li>
+          <li class="cv-item">
+            <span class="cv-when">2025</span>
+            <div class="cv-body">
+              <h4>Dynamic Brain Workshop <span class="cv-where">Allen Institute, Seattle</span></h4>
+              <p>Project-based workshop on computational and systems neuroscience.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer-contact">
+      <p class="footer-lead">If you want to chat or collaborate on world models, dynamical systems or neuroscience, please reach out!</p>
+      <div class="footer-links">
+        <a class="footer-email" href="mailto:rodrigo.gonzalezlaiz@helmholtz-munich.de">rodrigo.gonzalezlaiz@helmholtz-munich.de</a>
+        <a class="footer-icon" href="https://scholar.google.com/citations?user=W4uotzoAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1.5 9.5 12 16l8.5-5.26V17h2V9.5L12 3Z" fill="currentColor"/><path d="M6 13.2v3.3c0 1.9 2.7 3.5 6 3.5s6-1.6 6-3.5v-3.3l-6 3.7-6-3.7Z" fill="currentColor"/></svg>
+        </a>
+        <a class="footer-icon" href="https://github.com/gonlairo" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-meta">
+      <p>© 2026 Rodrigo Gonzalez Laiz</p>
+      <p>Helmholtz Munich</p>
+    </div>
+  </footer>
+
+  <script src="typewriter.js"></script>
+  <script src="theme.js"></script>
+  <script src="flow.js"></script>
+  <script src="data/attractors.js"></script>
+  <script src="attractor.js"></script>
+  <script src="reveal.js"></script>
+</body>
+</html>
